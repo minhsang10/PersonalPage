@@ -2,6 +2,48 @@
 <html lang="zxx" class="no-js">
 
 <head>
+<style>
+.citiess {
+  background-color: green;
+  color: white;
+  margin: 20px;
+  padding: 20px;
+}
+.navs {
+  float: left;
+  width: 20%;
+  height: 50px; 
+  background-color:green;
+  padding: 30px;
+}
+.cities {
+  background-color: green;
+  color: white;
+  margin: 20px;
+  padding: 20px;
+}
+.nav {
+  float: left;
+  width: 20%;
+  height:25px; 
+  background-color:green;
+  padding: 20px;
+}
+.nau {
+  float: left;
+  width: 100%;
+  height: 20px; 
+  background-color:green;
+  padding: 30px;
+}
+.nauu {
+  float: left;
+  width: 100%;
+  height: 150px; 
+  background-color:grey;
+  padding: 30px;
+}
+</style>
 	<!-- Mobile Specific Meta -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<!-- Favicon-->
@@ -60,6 +102,49 @@
 				</nav>
 			</div>
 		</div>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial;}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+</style>
+
 	</header>
 	<!-- End Header Area -->
 
@@ -70,37 +155,201 @@
 				<div class="about-content col-lg-12">
 					<h1 class="text-white">
 						Lab 1
-					</h1>
-					<p class="link-nav">
-						<span class="box">
-							<a href="index.html">Home </a>
-							<a href="implementtab1.html" >Implement </a>
-							<a href="designtab1.html" >Design </a>
-							<a href="#" >Requirement </a>
-						</span>
-					</p>
+					
 				</div>
 			</div>
 		</div>
+        <h2>Tabs</h2>
+<p>Click on the buttons inside the tabbed menu:</p>
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'London')">Requirement</button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')">Design</button>
+  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Implement</button>
+</div>
+
+<div id="London" class="tabcontent">
+  <p>1. Yêu cầu: Chọn 1 đối tượng bất kỳ trong thế giới thực, ví dụ
+như sinh viên, môn học, giảng viên,… để thiết kế trên phần
+mềm một chức năng trên web để thêm, sửa, xóa, tìm kiếm
+cho đối tượng đó.</p>
+<p> 2. Upload tất cả lên Azure / github trong menu Lab1 theo thứ
+tự: 
+ Tab Yêu cầu: copy lại nội dung của phần 1 vào đây (trình bày 
+cho đẹp)
+ Tab Thiết kế: để link tới các file sau đây:
+o Thiết kế trên giấy (chụp lại ảnh)
+o Thiết kế trên phần mềm thiết kế
+ Tab Hiện thực: chuyển tất cả thiết kế ở trên ở trên sang html </p>
+</div>
+
+<div id="Paris" class="tabcontent">
+  <h3 style="text-align:center;">This is my design on paper:</h3>
+ <img src="lab1____2.jpg"  width="450" height="450"> <a href="lab1____2.jpg" download> Download </a>
+   <img src="lab1____3.jpg"  width="450" height="450"> <a href="lab1____3.jpg" download> Download </a>
+<h3 style="text-align:center;">This is my design on Figma:</h3>
+  <img src="lab1__1.png" width="450" height="450" > <a href="lab1__1.png" download> Download </a> 
+   <img src="lab1__2.PNG" width="450" height="450" >  <a href="lab1__2.PNG" download> Download </a> 
+   <img src="lab1__3.PNG" width="450" height="450" >  <a href="lab1__3.PNG" download> Download </a> 
+   <img src="lab1__4.PNG" width="450" height="450" >  <a href="lab1__4.PNG" download> Download </a> 
+ <br><br> <center><a href="17130189_design.zip"><button class="button1">DOWNLOAD ALL FILE</button></a></center>
+</div>
+
+<div id="Tokyo" class="tabcontent">
+  <div class="citiess">
+<center>  <h1>Management Student System</h1></center>
+</div>
+
+<div class="navs">
+<h2>Add new student </h2>
+</div>
+ <br><br><br><br><br><br>
+ <center>
+<h4> ID: </h4>
+<input type=radio" name=
+plaform" value=""checked><br>
+<h4> Full name:</h4>
+<input type=radio" name=
+plaform" value=""checked><br>
+<h4> Gender </h4>
+<input type
+="checkbox" name
+="favorite" value
+="Music"
+>Male
+<input type
+="checkbox" name
+="favorite" value
+="Sport"
+>Female
+<h4> Phone number: </h4>
+<input type=radio" name=
+plaform" value=""checked><br>
+<h4> Address: </h4>
+<input type=radio" name=
+plaform" value=""checked><br>
+<h4>School </h4>
+            <td><select size="1" name="industry">
+                  <option>[Select School] </option>
+                  <option>Nong lam University </option>
+                  <option>Medical University</option>
+                  <option>University of Social Sciences and Humanities</option>
+                  <option>University of Science</option>
+                  <option>Other...</option>
+            </select></td> <br><br><br>
+    <tr>
+            <td colspan="2"><input type="submit" value="Add"
+               name="submit"> <input type="reset" value="Reset"></td>
+         </tr>
+         
+
+</center>
+</ul>
+</div>
+
+<div class="nav">
+<h2>Search</h2>
+
+
+</div>
+<td colspan="2"><input type="submit" value="Search" </td>
+<input type=radio" name=
+plaform" value=""checked>
+<div class="nau">
+<h4> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp ID &nbsp&nbsp Full name &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Gender &nbsp&nbsp&nbsp&nbsp&nbsp Phone number &nbsp&nbsp&nbsp&nbsp&nbsp Address &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp School </h4>
+</div>
+<div class="nauu">
+<h5>
+ 1501 &nbsp&nbsp Nguyen Tien Dung &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Male &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 02557798 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Thai Binh &nbsp&nbsp&nbsp&nbsp&nbsp University of Agriculture and Forestry </h5>
+<h5>
+ 1752 &nbsp&nbsp Chau Van Khoa &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Male &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 04578894 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Ha Noi &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Medical University </h5>
+<h5>
+ 1578 &nbsp&nbsp Que Ngoc Hai &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Male &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 54664555 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Da Nang &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp University of Science </h5>
+<h5>
+ 1655 &nbsp&nbsp Nguyen Cong Thanh &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Male &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 45421447 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Ho Chi Minh &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp University of Science </h5>
+
+</div>
+<div class="nav">
+<h2>Delete Information </h2>
+</div>
+
+<div class="nau">
+<h4> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp ID &nbsp&nbsp Full name &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Gender &nbsp&nbsp&nbsp&nbsp&nbsp Phone number &nbsp&nbsp&nbsp&nbsp&nbsp Address &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp School </h4>
+</div>
+<div class="nauu">
+<h5><input type
+="checkbox" name
+="favorite" value
+="Sport"
+> 1501 &nbsp&nbsp Nguyen Tien Dung &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Male &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 02557798 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Thai Binh &nbsp&nbsp&nbsp&nbsp&nbsp University of Agriculture and Forestry </h5>
+<h5><input type
+="checkbox" name
+="favorite" value
+="Sport"
+> 1752 &nbsp&nbsp Chau Van Khoa &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Male &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 04578894 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Ha Noi &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Medical University </h5>
+<h5><input type
+="checkbox" name
+="favorite" value
+="Sport"
+> 1578 &nbsp&nbsp Que Ngoc Hai &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Male &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 54664555 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Da Nang &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp University of Science </h5>
+<h5><input type
+="checkbox" name
+="favorite" value
+="Sport"
+> 1655 &nbsp&nbsp Nguyen Cong Thanh &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Male &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 45421447 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Ho Chi Minh &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp University of Science </h5>
+<center><td colspan="2"><input type="submit" value="Delete" </td></center>
+</div>
+
+<div class="nav">
+<h2>Edit Information </h2>
+</div>
+
+<div class="nau">
+
+<h4> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp ID &nbsp&nbsp Full name &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Gender &nbsp&nbsp&nbsp&nbsp&nbsp Phone number &nbsp&nbsp&nbsp&nbsp&nbsp Address &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp School </h4>
+</div>
+<div class="nauu">
+<h5><input type
+="checkbox" name
+="favorite" value
+="Sport"
+> 1501 &nbsp&nbsp Nguyen Tien Dung &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Male &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 02557798 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Thai Binh &nbsp&nbsp&nbsp&nbsp&nbsp University of Agriculture and Forestry </h5>
+<h5><input type
+="checkbox" name
+="favorite" value
+="Sport"
+> 1752 &nbsp&nbsp Chau Van Khoa &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Male &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 04578894 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Ha Noi &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Medical University </h5>
+<h5><input type
+="checkbox" name
+="favorite" value
+="Sport"
+> 1578 &nbsp&nbsp Que Ngoc Hai &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Male &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 54664555 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Da Nang &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp University of Science </h5>
+<h5><input type
+="checkbox" name
+="favorite" value
+="Sport"
+> 1655 &nbsp&nbsp Nguyen Cong Thanh &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Male &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 45421447 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Ho Chi Minh &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp University of Science </h5>
+<center><td colspan="2"><input type="submit" value="Edit" </td></center>
+</div>
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
 	</section>
 	<!-- End banner Area -->
-	<!-- Start Align Area -->
-	<div class="whole-wrap">
-		<div class="container">
-			<div class="section-top-border">
-				<h3 class="mb-30">Requirement</h3>
-				<div class="row">
-					<div class="col-md-3">
-						<img src="img/elements/d.jpg" alt="" class="img-fluid">
-					</div>
-					<div class="col-md-9 mt-sm-20 left-align-p">
-						<p>  Select any object in the real world, for example
-like students, subjects, lecturers, ... to design on section
-Software a function on the web to add, edit, delete, search
-for that object.</p>
-					</div>
-				</div>
-			</div>
+	
 			
 
 	<script src="js/vendor/jquery-2.2.4.min.js "></script>
