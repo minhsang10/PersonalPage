@@ -7,32 +7,56 @@
   color: black;
   margin: 20px;
   padding: 20px;
+  font-size:50px;
 
 }
 .nav {
   float: none;
   width: 20%;
-  height: 480px; 
-  background-color:grey;
+  height: 560px; 
+  background-color:hsl(248, 53%, 58%);
   padding: 40px;
   color: black;
   list-style-type:none;
-  
+
 }
 .nau {
   float: center;
   width: 20%;
   height: 30px; 
-   background-color: rgb(97, 145, 254);
+   background-color: rgb(100, 149, 254);
   padding:40px;
   color: black;
   list-style-type:none;
+  font-size:50px;
+
+
   }
 a:link {
   color:black;
   background-color: none;
   text-decoration: none;
   list-style-type:none;
+}
+ul a{
+display: inline-block;
+text-decoration:none;
+padding:20px;
+font-size:30px;
+font-weight:bold
+#color:000;
+
+} 
+	a.download{
+	background-color: rgb(97, 145, 254);
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+ul {
+list-style: none;
 }
 </style>
 </head>
@@ -42,10 +66,17 @@ a:link {
 <center>  <h2> Student Manager System</h2> </center>
 </div>
 <center>
-<td colspan="2"><input type="submit" value="Sign in"</td>  <input type=radio" name=plaform" value="student id "checked><br>
-         <input type=radio" name=plaform" value="password"checked> </center>
+ 
+
+ <a class="download" href="#" >Sign in</a><br>
+<td width="30%" align="right">*ID :</td>
+ <td><input type="text" name="email" size="37"></td><br>
+ <td width="30%" align="right">*Password:</td>
+        <td><input type="text" name="email" size="31"></td><br>
  <div class="nau"> <center>
- <li><a href="url" style="button">MENU</li></a><br><br><br> </center>
+
+ <li><a href="#" style="button">MENU</li></a><br><br><br>
+ 
   <br>
  </div>
  <div class="nav">
