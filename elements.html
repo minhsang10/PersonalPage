@@ -216,7 +216,7 @@
         <li><a href="#">Lab 5</a></li>
     </ul>
     <div class="tab">
-        <button class="tablinks" onclick="openCity(event, 'London')">Requirement</button>
+        <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">Requirement</button>
         <button class="tablinks" onclick="openCity(event, 'Paris')">Design</button>
         <button class="tablinks" onclick="openCity(event, 'Tokyo')">Implement</button>
     </div>
@@ -278,6 +278,8 @@
             document.getElementById(cityName).style.display = "block";
             evt.currentTarget.className += " active";
         }
+        // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click();
     </script>
 
 </body>
