@@ -1,189 +1,191 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-<style>
-.cities {
-  color: rgb(241, 247, 214);
-  margin: 10px;
-  padding: 10px;
-  font-size:30px;
-  background-image: url('http://baoduongconhantao.com.vn/wp-content/uploads/2016/10/thi-cong-san-co-100-trieu-copy-800x560.jpg');
-  background-size: cover;
+    <style>
+        .cities {
+            color: rgb(241, 247, 214);
+            margin: 10px;
+            padding: 10px;
+            font-size:30px;
+            background-image: url('http://baoduongconhantao.com.vn/wp-content/uploads/2016/10/thi-cong-san-co-100-trieu-copy-800x560.jpg');
+            background-size: cover;
 
-}
-.nav {
-  float: none;
-  width: 100%;
-  height: 560px; 
-  background-color:hsl(248, 53%, 58%);
-  padding: 40px;
-  color: black;
-  list-style-type:none;
-  background-image: url('http://baoduongconhantao.com.vn/wp-content/uploads/2016/10/thi-cong-san-co-100-trieu-copy-800x560.jpg');
+        }
+        .nav {
+            float: none;
+            width: 100%;
+            height: 560px;
+            background-color:hsl(248, 53%, 58%);
+            padding: 40px;
+            color: black;
+            list-style-type:none;
+            background-image: url('http://baoduongconhantao.com.vn/wp-content/uploads/2016/10/thi-cong-san-co-100-trieu-copy-800x560.jpg');
 
-}
+        }
 
-ul a{
-display: inline-block;
-text-decoration:none;
-padding:20px;
-font-size:30px;
-font-weight:bold
-#color:000;
+        ul a{
+            display: inline-block;
+            text-decoration:none;
+            padding:20px;
+            font-size:30px;
+            font-weight:bold
+            #color:000;
 
-} 
-	a.download{
-	background-color:  rgb(120, 180, 28);
-  color: white;
-  padding: 10px 15px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-}
-
-
-p.alignRight {
-    text-align: right;
-}
-
-body {font-family: Arial;}
-
-/* Style the tab */
-.tab {
-  overflow: hidden;
-  border: 1px solid #ccc;
-  background-color: #f1f1f1;
-}
+        }
+        a.download{
+            background-color:  rgb(120, 180, 28);
+            color: white;
+            padding: 10px 15px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
 
 
-/* Style the buttons inside the tab */
-.tab button {
-  background-color: inherit;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  transition: 0.3s;
-  font-size: 17px;
-}
+        p.alignRight {
+            text-align: right;
+        }
 
-/* Change background color of buttons on hover */
-.tab button:hover {
-  background-color: rgb(63, 204, 239);
-}
+        body {font-family: Arial;}
 
-/* Create an active/current tablink class */
-.tab button.active {
-  background-color: #ccc;
-}
-
-/* Style the tab content */
-.tabcontent {
-  display: none;
-  padding: 6px 12px;
-  border: 1px solid #ccc;
-  border-top: none;
-   background-image: url('https://scontent.fsgn8-1.fna.fbcdn.net/v/t1.0-9/70228826_2580404228669236_8963471797563424768_o.jpg?_nc_cat=110&_nc_oc=AQmvxKwkWPoAjOXk-W3vnhIaNt5rQnD74np3U340GYV5cX_GA6Zf2HJQV8YQGw9CPvY&_nc_ht=scontent.fsgn8-1.fna&oh=345c4c8d2365639a528dd934ba2a989f&oe=5E2FD3E3');
-     background-size: cover;
-}
+        /* Style the tab */
+        .tab {
+            overflow: hidden;
+            border: 1px solid #ccc;
+            background-color: #f1f1f1;
+        }
 
 
-</style>
+        /* Style the buttons inside the tab */
+        .tab button {
+            background-color: inherit;
+            float: left;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 14px 16px;
+            transition: 0.3s;
+            font-size: 17px;
+        }
+
+        /* Change background color of buttons on hover */
+        .tab button:hover {
+            background-color: rgb(63, 204, 239);
+        }
+
+        /* Create an active/current tablink class */
+        .tab button.active {
+            background-color: #ccc;
+        }
+
+        /* Style the tab content */
+        .tabcontent {
+            display: none;
+            padding: 6px 12px;
+            border: 1px solid #ccc;
+            border-top: none;
+            background-image: url('https://scontent.fsgn8-1.fna.fbcdn.net/v/t1.0-9/70228826_2580404228669236_8963471797563424768_o.jpg?_nc_cat=110&_nc_oc=AQmvxKwkWPoAjOXk-W3vnhIaNt5rQnD74np3U340GYV5cX_GA6Zf2HJQV8YQGw9CPvY&_nc_ht=scontent.fsgn8-1.fna&oh=345c4c8d2365639a528dd934ba2a989f&oe=5E2FD3E3');
+            background-size: cover;
+        }
+
+
+    </style>
 </head>
 <body>
 
 <div class="cities">
-<center>  <h2> CÁP KÈO BÓNG ĐÁ </h2> </center>
+    <center>  <h2> CÁP KÈO BÓNG ĐÁ </h2> </center>
 </div>
 
 <p class="alignRight"> Chào mừng, Lưu Minh Sang <br>
- <a class="download" href="#" >Đăng xuất</a><br></p>   
- 
+    <a class="download" href="#" >Đăng xuất</a><br></p>
+
 <div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'London')">Trang chủ</button>
-  <button class="tablinks" onclick="openCity(event, 'Paris')">Thêm trận</button>
-  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tìm trận</button>
-  <button class="tablinks" onclick="openCity(event, 'To')">Đã chọn</button>
+    <button class="tablinks" onclick="openCity(event, 'London')">Trang chủ</button>
+    <button class="tablinks" onclick="openCity(event, 'Paris')">Thêm trận</button>
+    <button class="tablinks" onclick="openCity(event, 'Tokyo')" id="defaultOpen">Tìm trận</button>
+    <button class="tablinks" onclick="openCity(event, 'To')">Đã chọn</button>
 </div>
 <div id="Tokyo" class="tabcontent">
-<span style="color: MediumSeaGreen">   <h3>Chọn sân: </h3> </span>
-  <td><select style="background-color:#b4b4b4" size="1" name="industry">
-                  <option>[Chọn sân] </option>
-                  <option>Sân bóng Đại học Nông Lâm </option>
-                  <option>Sân bóng Đại học Ngân Hàng</option>
-                  <option>Sân bóng ký túc xá khu A</option>
-                  <option>Sân bóng chợ đêm</option>
-                  <option>Other...</option>
-            </select></td>
-   <span style="color: MediumSeaGreen">     <h3> Chọn giờ:  </h3> </span>
-           <td><select style="background-color:#b4b4b4" size="1" name="industry">
-                  <option>[Chọn giờ] </option>
-                  <option>4h đến 5h </option>
-                  <option>5h đến 6h30</option>
-                  <option>6h30 đến 7h30</option>          
-                  <option>Other...</option>    </select>
-        </td> 
+    <span style="color: MediumSeaGreen">   <h3>Chọn sân: </h3> </span>
+    <td><select style="background-color:#b4b4b4" size="1" name="industry">
+        <option>[Chọn sân] </option>
+        <option>Sân bóng Đại học Nông Lâm </option>
+        <option>Sân bóng Đại học Ngân Hàng</option>
+        <option>Sân bóng ký túc xá khu A</option>
+        <option>Sân bóng chợ đêm</option>
+        <option>Other...</option>
+    </select></td>
+    <span style="color: MediumSeaGreen">     <h3> Chọn giờ:  </h3> </span>
+    <td><select style="background-color:#b4b4b4" size="1" name="industry">
+        <option>[Chọn giờ] </option>
+        <option>4h đến 5h </option>
+        <option>5h đến 6h30</option>
+        <option>6h30 đến 7h30</option>
+        <option>Other...</option>    </select>
+    </td>
     <span style="color: MediumSeaGreen">            <p> <h3> Kết quả: </h3> </p> </span>
-<center>
-   <table style="background-color:#f0f0f0" border="1">
-        <tr>
-            <th>Sân	</th>
-            <th>Giờ thi đấu </th>
-            <th>Địa chỉ sân</th>
+    <center>
+        <table style="background-color:#f0f0f0" border="1">
+            <tr>
+                <th>Sân	</th>
+                <th>Giờ thi đấu </th>
+                <th>Địa chỉ sân</th>
                 <th>Số điện thoại</th>
-                    <th>Chọn</th>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>5h-6h30</td>
-            <td>Sân bóng Đại học Nông Lâm</td>
+                <th>Chọn</th>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>5h-6h30</td>
+                <td>Sân bóng Đại học Nông Lâm</td>
                 <td>0958447558</td>
-                    <td><input type
-="checkbox" name
-="favorite" value
-="Sport"></td>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>5h-6h30</td>
-            <td>Sân bóng Đại học Nông Lâm</td>
+                <td><input type
+                                   ="checkbox" name
+                                   ="favorite" value
+                                   ="Sport"></td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>5h-6h30</td>
+                <td>Sân bóng Đại học Nông Lâm</td>
                 <td>0958774665</td>
-                    <td><input type
-="checkbox" name
-="favorite" value
-="Sport"></td>
-        </tr>
-        <tr>
-            <td>6</td>
-            <td>5h-6h30</td>
-            <td>Sân bóng Đại học Nông Lâm</td>
+                <td><input type
+                                   ="checkbox" name
+                                   ="favorite" value
+                                   ="Sport"></td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>5h-6h30</td>
+                <td>Sân bóng Đại học Nông Lâm</td>
                 <td>07554481122</td>
-                    <td><input type
-="checkbox" name
-="favorite" value
-="Sport"></td>
-        </tr>
-    </table>
-  
-<p class="alignRight"> <a class="download" href="#" >Xong</a><br></p> 
-</center>
+                <td><input type
+                                   ="checkbox" name
+                                   ="favorite" value
+                                   ="Sport"></td>
+            </tr>
+        </table>
+
+        <p class="alignRight"> <a class="download" href="#" >Xong</a><br></p>
+    </center>
 </div>
 
 <script>
-function openCity(evt, cityName) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-  document.getElementById(cityName).style.display = "block";
-  evt.currentTarget.className += " active";
-}
+    function openCity(evt, cityName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
 </script>
 <body>
 </html>
