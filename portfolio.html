@@ -60,7 +60,7 @@
                         </ul>
 
                     <li><a href="portfolio.html">CONTACT ME</a></li>
-                 
+
 
 
 
@@ -71,59 +71,89 @@
     </div>
 </header>
 <!-- End Header Area -->
-
-<!-- start banner Area -->
-<section class="banner-area relative">
-    <div class="container">
-        <div class="row d-flex align-items-center justify-content-center">
-            <div class="about-content col-lg-12">
-                <h1 class="text-white">
-                    Contact Me
-                </h1>
-                <p class="link-nav">
-						<span class="box">
-							<a href="index.html">Home </a>
-
-					</span>
-            </div>
-        </div>
-    </div>
+<!-- Start contact-page Area -->
+<section class="contact-page-area section-gap-top">
     <div class="container">
         <div class="row">
+            <div class="col-lg-4 d-flex flex-column address-wrap">
+                <div class="single-contact-address d-flex flex-row">
+                    <div class="icon">
+                        <span class="lnr lnr-home"></span>
+                    </div>
+                    <div class="contact-details">
+                        <h5>Rạch Gòi, Hậu Giang</h5>
+                        <p>
+                            My address
+                        </p>
+                    </div>
+                </div>
+                <div class="single-contact-address d-flex flex-row">
+                    <div class="icon">
+                        <span class="lnr lnr-phone-handset"></span>
+                    </div>
+                    <div class="contact-details">
+                        <h5>093 9354 892</h5>
+                        <p>My number phone</p>
+                    </div>
+                </div>
+                <div class="single-contact-address d-flex flex-row">
+                    <div class="icon">
+                        <span class="lnr lnr-envelope"></span>
+                    </div>
+                    <div class="contact-details">
+                        <h5>17130189@st.hcmuaf.edu.vn</h5>
+                        <p>My email</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <form class="form-area " id="myForm" action="mail.php" method="post" class="contact-form text-right">
+                    <div class="row">
+                        <div class="col-lg-6 form-group form-group-top">
+                            <input name="name" placeholder="Enter your name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'"
+                                   class="common-input mb-20 form-control" required="" type="text">
+
+                            <input name="email" placeholder="Enter email address" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''"
+                                   onblur="this.placeholder = 'Enter email address'" class="common-input mb-20 form-control" required="" type="email">
+
+                            <input name="subject" placeholder="Enter your subject" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your id'"
+                                   class="common-input mb-20 form-control" required="" type="text">
+                        </div>
+                        <div class="col-lg-6 form-group">
+								<textarea class="common-textarea form-control" name="message" placeholder="Messege" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Messege'"
+                                          required=""></textarea>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="alert-msg" style="text-align: left;"></div>
+
+                            <button class="primary-btn" style="float: right;" data-text="Send Message">
+                                <span>S</span>
+                                <span>e</span>
+                                <span>n</span>
+                                <span>d</span>
+                                <span> </span>
+                                <span>M</span>
+                                <span>e</span>
+                                <span>s</span>
+                                <span>s</span>
+                                <span>a</span>
+                                <span>g</span>
+                                <span>e</span>
+
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
             <div class="col-lg-12">
-                <div class="contact-title">
-                    <h2>CONTACT ME WITH: </h2>
-
-                </div>
+                <div class="map-wrap" style="width:100%; height: 445px;" id="map"></div>
             </div>
         </div>
-
-        <div class="row mt-80">
-            <div class="col-lg-4 col-md-4">
-                <div class="contact-box">
-                    <h4> MY SCHOOL: </h4>
-                    <h4>University of Agriculture and Forestry</h4>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-4">
-                <div class="contact-box">
-                    <h4> MY EMAIL: </h4>
-                    <h4>17130189@st.hcmuaf.edu.vn</h4>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-4">
-                <div class="contact-box">
-                    <h4> MY GROUP: </h4>
-                    <h4>Hci2019-Group12</h4>
-                </div>
-            </div>
-        </div>
-
-
-    </div>
     </div>
 </section>
-<!-- End banner Area -->
+<!-- End contact-page Area -->
+
 
 <script src="js/vendor/jquery-2.2.4.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
